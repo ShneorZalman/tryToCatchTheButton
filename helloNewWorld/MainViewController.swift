@@ -54,7 +54,6 @@ class MainViewController: UIViewController {
                     createAlert()
                     timer?.invalidate()
                 }
-        // Здесь можно выполнить действия, которые нужно повторять каждую секунду
         }
     
     deinit {
@@ -76,17 +75,13 @@ class MainViewController: UIViewController {
     
     func createAlert() {
         let alertController = UIAlertController(title: "game over", message: "Ты успел нажать \(countOfTouches) раз", preferredStyle: .alert)
-               
-               // Создаем действие для уведомления (например, кнопку "OK")
+
                let okAction = UIAlertAction(title: "New game", style: .default) { (action) in
                    self.dismiss(animated: true, completion: nil)
                    print("Кнопка OK была нажата")
                }
-               
-               // Добавляем действие к UIAlertController
                alertController.addAction(okAction)
-               
-               // Показываем уведомление
+
                present(alertController, animated: true, completion: nil)
            
     }
