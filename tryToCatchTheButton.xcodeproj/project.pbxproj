@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		161609602AF525030010EEB2 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1616095F2AF525030010EEB2 /* StartViewController.swift */; };
 		16908EB12AF2A15C00107218 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16908EB02AF2A15C00107218 /* AppDelegate.swift */; };
 		16908EB32AF2A15C00107218 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16908EB22AF2A15C00107218 /* SceneDelegate.swift */; };
-		16908EB52AF2A15C00107218 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16908EB42AF2A15C00107218 /* ViewController.swift */; };
+		16908EB52AF2A15C00107218 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16908EB42AF2A15C00107218 /* MainViewController.swift */; };
 		16908EB82AF2A15C00107218 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16908EB62AF2A15C00107218 /* Main.storyboard */; };
 		16908EBA2AF2A15F00107218 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16908EB92AF2A15F00107218 /* Assets.xcassets */; };
 		16908EBD2AF2A15F00107218 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16908EBB2AF2A15F00107218 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		16908EAD2AF2A15C00107218 /* helloNewWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloNewWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1616095F2AF525030010EEB2 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		16908EAD2AF2A15C00107218 /* tryToCatchTheButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tryToCatchTheButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16908EB02AF2A15C00107218 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16908EB22AF2A15C00107218 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		16908EB42AF2A15C00107218 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16908EB42AF2A15C00107218 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		16908EB72AF2A15C00107218 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		16908EB92AF2A15F00107218 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16908EBC2AF2A15F00107218 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -48,7 +50,7 @@
 		16908EAE2AF2A15C00107218 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				16908EAD2AF2A15C00107218 /* helloNewWorld.app */,
+				16908EAD2AF2A15C00107218 /* tryToCatchTheButton.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,7 +60,8 @@
 			children = (
 				16908EB02AF2A15C00107218 /* AppDelegate.swift */,
 				16908EB22AF2A15C00107218 /* SceneDelegate.swift */,
-				16908EB42AF2A15C00107218 /* ViewController.swift */,
+				16908EB42AF2A15C00107218 /* MainViewController.swift */,
+				1616095F2AF525030010EEB2 /* StartViewController.swift */,
 				16908EB62AF2A15C00107218 /* Main.storyboard */,
 				16908EB92AF2A15F00107218 /* Assets.xcassets */,
 				16908EBB2AF2A15F00107218 /* LaunchScreen.storyboard */,
@@ -70,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		16908EAC2AF2A15C00107218 /* helloNewWorld */ = {
+		16908EAC2AF2A15C00107218 /* tryToCatchTheButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 16908EC12AF2A15F00107218 /* Build configuration list for PBXNativeTarget "helloNewWorld" */;
+			buildConfigurationList = 16908EC12AF2A15F00107218 /* Build configuration list for PBXNativeTarget "tryToCatchTheButton" */;
 			buildPhases = (
 				16908EA92AF2A15C00107218 /* Sources */,
 				16908EAA2AF2A15C00107218 /* Frameworks */,
@@ -82,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = helloNewWorld;
+			name = tryToCatchTheButton;
 			productName = helloNewWorld;
-			productReference = 16908EAD2AF2A15C00107218 /* helloNewWorld.app */;
+			productReference = 16908EAD2AF2A15C00107218 /* tryToCatchTheButton.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 16908EA82AF2A15C00107218 /* Build configuration list for PBXProject "helloNewWorld" */;
+			buildConfigurationList = 16908EA82AF2A15C00107218 /* Build configuration list for PBXProject "tryToCatchTheButton" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				16908EAC2AF2A15C00107218 /* helloNewWorld */,
+				16908EAC2AF2A15C00107218 /* tryToCatchTheButton */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16908EB52AF2A15C00107218 /* ViewController.swift in Sources */,
+				16908EB52AF2A15C00107218 /* MainViewController.swift in Sources */,
+				161609602AF525030010EEB2 /* StartViewController.swift in Sources */,
 				16908EB12AF2A15C00107218 /* AppDelegate.swift in Sources */,
 				16908EB32AF2A15C00107218 /* SceneDelegate.swift in Sources */,
 			);
@@ -302,9 +306,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ZalmanZoteev.helloNewWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -330,16 +337,19 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ZalmanZoteev.helloNewWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		16908EA82AF2A15C00107218 /* Build configuration list for PBXProject "helloNewWorld" */ = {
+		16908EA82AF2A15C00107218 /* Build configuration list for PBXProject "tryToCatchTheButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				16908EBF2AF2A15F00107218 /* Debug */,
@@ -348,7 +358,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		16908EC12AF2A15F00107218 /* Build configuration list for PBXNativeTarget "helloNewWorld" */ = {
+		16908EC12AF2A15F00107218 /* Build configuration list for PBXNativeTarget "tryToCatchTheButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				16908EC22AF2A15F00107218 /* Debug */,
